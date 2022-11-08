@@ -1,0 +1,299 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+	background-color: #000;
+	color: #fff;
+	height: 100%;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+main{
+	width: 90%;
+	margin: 20px auto;
+}
+.site__block{
+	background-color: #000;
+	width: 60%;
+	margin: 10px auto;
+	box-shadow: 0.708986px -0.708986px 3.54493px rgba(255, 255, 255, 0.4);
+	min-height: calc(100vh - 40px);
+}
+.logo{
+	width: 30%;
+	margin: 0 auto;
+}
+.logo__1 img{
+	width: 100%;
+}
+.logo__2 img{
+	width: 100%;
+}
+.video_frame{
+	margin-left: 25%;
+}
+
+nav{
+	margin: auto;
+	width: 90%;
+}
+.topnav{
+	display: flex;
+	font-size: 1rem;
+	margin-top: 40px;
+	text-transform: uppercase;
+	border-top: 1px solid white;
+	flex-wrap: wrap;
+}
+.topnav a{
+	color: #fff;
+	text-align: center;
+	padding: 14px 16px;
+	font-size: 1rem;
+}
+.topnav a:hover{
+	border-bottom: 2px solid #fff;
+}
+
+.container{
+	display: flex;
+}
+.left__block{
+	width: 60%;
+}
+.right__block{
+	width: 40%;
+}
+.left__block h1{
+	text-transform: uppercase;
+	padding: 10px 0;
+}
+
+.blog__line__FullBlock{
+	padding-bottom: 20px;
+}
+.date_ago{
+	font-size: 0.7rem;
+	font-weight: 300;
+}
+.block__name{
+	text-transform: uppercase;
+	padding-bottom: 15px;
+	font-weight: 400;
+	font-size: 1rem;
+}
+.blog__line__block{
+	display: flex;
+	border-bottom: 1px solid white;
+}
+.block__img{
+	padding-right: 5%;
+	width: 45%;
+}
+.block_p{
+	width: 45%;
+	font-size: 0.8rem;
+}
+.blog__line__block img{
+	width: 100%;
+}
+.consert__line__block{
+	padding-bottom: 10px;
+	display: flex;
+	border-bottom: 1px solid white;
+	margin-bottom: 10px;
+}
+.date{
+	font-size: 2rem;
+	text-align: center;
+	width: 25%;
+	font-weight: 500;
+	margin-right: 10%;
+}
+.place__text{
+	font-size: 0.8rem;
+	text-align: center;
+	padding-top: 10px;
+	width: 100%;
+}
+.button{
+	background-color: #EB5757;
+	font-size: 0.8rem;
+	padding: 5px;
+	border-radius: 5%;
+	text-align: center;
+	width: 50%;
+	margin: 0 auto;
+}
+.button a{
+	color: #fff;
+	font-weight: 600;
+
+}
+.place{
+	width: 55%;
+}
+.social{
+	display: flex;
+	margin: 10px auto;
+	width: 100%;
+}
+#vk_groups{
+	margin-right: 10px;
+}
+.ituns img{
+	width: 100%;
+}
+.play_marcet img{
+	width: 100%;
+}
+footer{
+	width: 100%;
+	height: auto;
+	background-color: #fff;
+	text-align: center;
+	flex: 0 0 auto;
+}footer a{
+	color: #000;
+}
+.photo_conteiner{
+
+}
+.gallery{
+	display: flex;
+	margin: auto;
+	flex-wrap: wrap;
+}
+.photo-item{
+	width: 24%;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+.photo-item img{
+	box-sizing: border-box;
+	max-width: 100%;
+	opacity: 0.7;
+}
+.photo-item img:hover{
+	opacity: 1;
+}
+.gallery img{
+	width: 400px;
+	height: 200px;
+}
+.video__conteiner{
+	width: 90%;
+	margin: 0 auto;
+}
+.consert__blocks{
+	text-transform: uppercase;
+	font-size: 0.9rem;
+	padding-top: 15px;
+}
+.consert_block{
+	display: flex;
+	border-bottom: 1px solid white;
+	margin-bottom: 5px;
+	margin-top: 10px;
+	-ms-align-items: center;
+	align-items: center;
+}
+.consrt__block__item{
+	width: 20%;
+	margin-bottom: 10px;
+}
+
+
+
+
+@media screen and (max-width: 1465px){
+	.social{
+		flex-wrap: wrap;
+	}
+	.date{
+		font-size: 1.7rem;
+	}
+	.photo-item{
+		width: 30%;
+	}
+	.consert__blocks{
+		font-size: 0.8rem;
+	}
+	.button{
+		font-size: 0.8rem;
+	}
+}
+@media screen and (max-width: 1265px){
+	.date{
+		font-size: 1rem;
+	}
+	.consert__blocks{
+		font-size: 0.7rem;
+	}
+	.button{
+		font-size: 0.7rem;
+	}
+}
+@media screen and (max-width: 768px){
+	.topnav a{
+		font-size: 0.8rem;
+	}
+	.left__block h1{
+	font-size: 1.8rem;
+	}
+	.consert__line__block{
+		display: block;
+	}
+	.place{
+	width: 100%;
+	}
+	.date{
+		width: 100%;
+	}
+	.photo-item{
+		width: 45%;
+		margin-left: 15px;
+	}
+	.consert__blocks{
+		font-size: 0.6rem;
+	}
+	.button{
+		font-size: 0.6rem;
+	}
+}
+	
+@media screen and (max-width: 575px){
+	.photo-item{
+		width: 100%;
+		margin-left: 0px;
+	}
+	.consert__blocks{
+		font-size: 0.5rem;
+	}
+	.button{
+		font-size: 0.5rem;
+	}
+}
+@media screen and (max-width: 450px){
+	.left__block h1{
+	font-size: 1.6rem;
+	}
+	.block_p{
+	font-size: 0.65rem;
+	}
+	.date{
+		font-size: 0.5rem;
+	}
+	.consert__blocks{
+		font-size: 0.4rem;
+	}
+	.button{
+		font-size: 0.3rem;
+	}
+}
