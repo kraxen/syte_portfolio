@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header>
+		<div class="logo_nav">
+			<div class="logo">
+			<img src="img/logo-black.png">
+			</div>
+			<div class="logo_text">Московский салон меха</div>
+			<div class="logo_number">8 800 999 47 63 <b>М.</b>Третьяковская </div>	
+		</div>
+		<div class="jilete">
+			ЖИЛЕТЫ И ШУБЫ ТРАНСФОРМЕРЫ
+		</div>
+		<div class="mex">
+			из натурального меха
+		</div>
+		<div class="pred_kat">
+			Меховые изделия от 11.990 руб.<br>
+			Срочная доставка до 3-х изделий в течение 4-х часов<br>
+			Шоу-рум в центре Москвы<br>
+			Доставка по России за 3 дня<br>
+		</div>
+		<div class="katalog_button">
+			<b>ПЕРЕЙТИ В КАТАЛОГ</b>
+		</div>
+		<div class="snow">
+			<img src="img/grunge-brush-stroke-banner-2-5.png" alt="">
+		</div>
+		<div class="b1">
+			<img src="img/Слой 8.png" alt="">
+		</div>
+		<div class="b2">
+			<img src="img/Слой 9.png" alt="">
+		</div>
+	</header>
+	<main>
+		<div class="preimushestva">
+			<img src="img/Преимущества.png" alt="">
+		</div>
+		<div class="videoobzor">
+			ВИДЕО ОБЗОРЫ НАШИХ ИЗДЕЛИЙ
+		</div>
+		<div class="videoes_container">
+			<div class="video_block">Видео</div>
+			<div class="video_block">Видео</div>
+		</div>
+		<div class="ka4stvo">Убедитесь в качестве и красоте наших изделий!</div>
+		<div class="katal"><b>КАТАЛОГ</b></div>
+		<div class="opisanie_katalog">
+			Шубы и меховые жилеты от фабрик производителей<br>
+			по гарантированно низким ценам в России  
+		</div>
+		<div class="shubi_transformeri"><b>ШУБЫ ТРАНСФОРМЕРЫ</b></div>
+
+		<!-- блоки с моделями -->
+
+		<div class="container">
+		<div class="block_container">
+
+			<!-- первый блок -->
+			<div class="block">
+				<div class="block_left">
+					<div class="slider">
+						<div onclick="row_left()" class="left">								<img src="images/указатель влево.png" alt="">
+							</div>
+						<div class="slider_img">
+						<a href='#'>
+						<img id="image" src="images/карточка-пудра.png"">
+						</a>
+						</div>
+						<div onclick="row_right()" class="right">
+							<img src="images/указатель вправо.png" alt="" >
+						</div>
+					</div>
+					<div class="paragraph">
+						Шуба из песца 90 см, трансформер в 70 см + рукава, натур. мех и замша. Рукав 7/8.
+					</div>
+					<div class="cost">
+						19990 руб.
+					</div>
+					<div class="button" onclick="buy()" >
+						добавить в корзину
+					</div>				
+				</div>
+				<div class="block_right">
+					<div class="colour_button">
+						<div class="image_button" onclick="pudra()">
+							<img src="images/кнопка пудра.png" alt="" id="pudra">
+						</div>
+						<div class="text_button">пудра</div>
+					</div>
+					<div class="colour_button">
+						<div class="image_button" onclick="mokko()" >
+							<img src="images/конпка мокко.png" alt="" id="mokko">
+						</div>
+						<div class="text_button">мокко</div>
+					</div>
+					<div class="colour_button">
+						<div class="image_button" onclick="orex()" >
+							<img src="images/кнопка орех.png" alt="" id="orex">
+						</div>
+						<div class="text_button" >орех</div>
+					</div>
+					<div class="colour_button">
+						<div class="image_button" onclick="sobol()" >
+							<img src="images/кнопка соболь.png" alt="" id="sobol">
+						</div>
+						<div class="text_button">соболь</div>
+					</div>
+					<div class="colour_button">
+						<div class="image_button" onclick="graphit()" >
+							<img src="images/кнопка графит.png" alt="" id="graphit">
+						</div>
+						<div class="text_button">графит</div>
+					</div>
+					<div class="colour_button">
+						<div class="image_button" onclick="black()" >
+							<img src="images/Кнопка чёрный.png" alt="" id="black">
+						</div>
+						<div class="text_button">чёрный</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- второй блок -->
+			<div class="block">
+				<div class="block_left">
+					<div class="slider">
+						<div onclick="row_left2()" class="left">								<img src="images/указатель влево.png" alt="">
+							</div>
+						<div class="slider_img">
+						<a href='#'>
+						<img id="image2" src="images/карточка-пудра.png"">
+						</a>
+						</div>
+						<div onclick="row_right2()" class="right">
+							<img src="images/указатель вправо.png" alt="" >
+						</div>
+					</div>
+					<div class="paragraph">
+						Шуба из песца 90 см, трансформер в 70 см + рукава, натур. мех и замша. Рукав 7/8.
+					</div>
+					<div class="cost">
+						19990 руб.
+					</div>
+					<div class="button" onclick="buy()" >
+						добавить в корзину
+					</div>				
+				</div>
+				<div class="block_right">
+					<div class="colour_button">
+						<div class="image_button" onclick="pudra2()">
+							<img src="images/кнопка пудра.png" alt="" id="pudra2">
+						</div>
+						<div class="text_button">пудра</div>
+					</div>
+					<div class="colour_button">
+						<div class="image_button" onclick="mokko2()" >
+							<img src="images/конпка мокко.png" alt="" id="mokko2">
+						</div>
+						<div class="text_button">мокко</div>
+					</div>
+					<div class="colour_button">
+						<div class="image_button" onclick="orex2()" >
+							<img src="images/кнопка орех.png" alt="" id="orex2">
+						</div>
+						<div class="text_button" >орех</div>
+					</div>
+					<div class="colour_button">
+						<div class="image_button" onclick="sobol2()" >
+							<img src="images/кнопка соболь.png" alt="" id="sobol2">
+						</div>
+						<div class="text_button">соболь</div>
+					</div>
+					<div class="colour_button">
+						<div class="image_button" onclick="graphit2()" >
+							<img src="images/кнопка графит.png" alt="" id="graphit2">
+						</div>
+						<div class="text_button">графит</div>
+					</div>
+					<div class="colour_button">
+						<div class="image_button" onclick="black2()" >
+							<img src="images/Кнопка чёрный.png" alt="" id="black2">
+						</div>
+						<div class="text_button">чёрный</div>
+					</div>
+				</div>
+			</div>
+
+
+			<!-- Третий блок -->
+			<div class="block">
+				<div class="block_left">
+					<div class="slider">
+						<div onclick="row_left3()" class="left">								<img src="images/указатель влево.png" alt="">
+							</div>
+						<div class="slider_img">
+						<a href='#'>
+						<img id="image3" src="images/карточка-пудра.png"">
+						</a>
+						</div>
+						<div onclick="row_right3()" class="right">
+							<img src="images/указатель вправо.png" alt="" >
+						</div>
+					</div>
+					<div class="paragraph">
+						Шуба из песца 90 см, трансформер в 70 см + рукава, натур. мех и замша. Рукав 7/8.
+					</div>
+					<div class="cost">
+						19990 руб.
+					</div>
+					<div class="button" onclick="buy()" >
+						добавить в корзину
+					</div>				
+				</div>
+				<div class="block_right">
+					<div class="colour_button">
+						<div class="image_button" onclick="pudra3()">
+							<img src="images/кнопка пудра.png" alt="" id="pudra3">
+						</div>
+						<div class="text_button">пудра</div>
+					</div>
+					<div class="colour_button">
+						<div class="image_button" onclick="mokko3()" >
+							<img src="images/конпка мокко.png" alt="" id="mokko3">
+						</div>
+						<div class="text_button">мокко</div>
+					</div>
+					<div class="colour_button">
+						<div class="image_button" onclick="orex3()" >
+							<img src="images/кнопка орех.png" alt="" id="orex3">
+						</div>
+						<div class="text_button" >орех</div>
+					</div>
+					<div class="colour_button">
+						<div class="image_button" onclick="sobol3()" >
+							<img src="images/кнопка соболь.png" alt="" id="sobol3">
+						</div>
+						<div class="text_button">соболь</div>
+					</div>
+					<div class="colour_button">
+						<div class="image_button" onclick="graphit3()" >
+							<img src="images/кнопка графит.png" alt="" id="graphit3">
+						</div>
+						<div class="text_button">графит</div>
+					</div>
+					<div class="colour_button">
+						<div class="image_button" onclick="black3()" >
+							<img src="images/Кнопка чёрный.png" alt="" id="black3">
+						</div>
+						<div class="text_button">чёрный</div>
+					</div>
+				</div>
+			</div>
+			
+
+			<!-- Четвертый блок -->
+			<div class="block">
+				<div class="block_left">
+					<div class="slider">
+						<div onclick="row_left4()" class="left">								<img src="images/указатель влево.png" alt="">
+							</div>
+						<div class="slider_img">
+						<a href='#'>
+						<img id="image4" src="images/карточка-пудра.png"">
+						</a>
+						</div>
+						<div onclick="row_right4()" class="right">
+							<img src="images/указатель вправо.png" alt="" >
+						</div>
+					</div>
+					<div class="paragraph">
+						Шуба из песца 90 см, трансформер в 70 см + рукава, натур. мех и замша. Рукав 7/8.
+					</div>
+					<div class="cost">
+						19990 руб.
+					</div>
+					<div class="button" onclick="buy()" >
+						добавить в корзину
+					</div>				
+				</div>
+				<div class="block_right">
+					<div class="colour_button">
+						<div class="image_button" onclick="pudra4()">
+							<img src="images/кнопка пудра.png" alt="" id="pudra4">
+						</div>
+						<div class="text_button">пудра</div>
+					</div>
+					<div class="colour_button">
+						<div class="image_button" onclick="mokko4()" >
+							<img src="images/конпка мокко.png" alt="" id="mokko4">
+						</div>
+						<div class="text_button">мокко</div>
+					</div>
+					<div class="colour_button">
+						<div class="image_button" onclick="orex4()" >
+							<img src="images/кнопка орех.png" alt="" id="orex4">
+						</div>
+						<div class="text_button" >орех</div>
+					</div>
+					<div class="colour_button">
+						<div class="image_button" onclick="sobol4()" >
+							<img src="images/кнопка соболь.png" alt="" id="sobol4">
+						</div>
+						<div class="text_button">соболь</div>
+					</div>
+					<div class="colour_button">
+						<div class="image_button" onclick="graphit4()" >
+							<img src="images/кнопка графит.png" alt="" id="graphit4">
+						</div>
+						<div class="text_button">графит</div>
+					</div>
+					<div class="colour_button">
+						<div class="image_button" onclick="black4()" >
+							<img src="images/Кнопка чёрный.png" alt="" id="black4">
+						</div>
+						<div class="text_button">чёрный</div>
+					</div>
+				</div>
+			</div>
+
+
+			<!-- Пятый блок -->
+			<div class="block">
+				<div class="block_left">
+					<div class="slider">
+						<div onclick="row_left5()" class="left">								<img src="images/указатель влево.png" alt="">
+							</div>
+						<div class="slider_img">
+						<a href='#'>
+						<img id="image5" src="images/карточка-пудра.png"">
+						</a>
+						</div>
+						<div onclick="row_right5()" class="right">
+							<img src="images/указатель вправо.png" alt="" >
+						</div>
+					</div>
+					<div class="paragraph">
+						Шуба из песца 90 см, трансформер в 70 см + рукава, натур. мех и замша. Рукав 7/8.
+					</div>
+					<div class="cost">
+						19990 руб.
+					</div>
+					<div class="button" onclick="buy()" >
+						добавить в корзину
+					</div>				
+				</div>
+				<div class="block_right">
+					<div class="colour_button">
+						<div class="image_button" onclick="pudra5()">
+							<img src="images/кнопка пудра.png" alt="" id="pudra5">
+						</div>
+						<div class="text_button">пудра</div>
+					</div>
+					<div class="colour_button">
+						<div class="image_button" onclick="mokko5()" >
+							<img src="images/конпка мокко.png" alt="" id="mokko5">
+						</div>
+						<div class="text_button">мокко</div>
+					</div>
+					<div class="colour_button">
+						<div class="image_button" onclick="orex5()" >
+							<img src="images/кнопка орех.png" alt="" id="orex5">
+						</div>
+						<div class="text_button" >орех</div>
+					</div>
+					<div class="colour_button">
+						<div class="image_button" onclick="sobol5()" >
+							<img src="images/кнопка соболь.png" alt="" id="sobol5">
+						</div>
+						<div class="text_button">соболь</div>
+					</div>
+					<div class="colour_button">
+						<div class="image_button" onclick="graphit5()" >
+							<img src="images/кнопка графит.png" alt="" id="graphit5">
+						</div>
+						<div class="text_button">графит</div>
+					</div>
+					<div class="colour_button">
+						<div class="image_button" onclick="black5()" >
+							<img src="images/Кнопка чёрный.png" alt="" id="black5">
+						</div>
+						<div class="text_button">чёрный</div>
+					</div>
+				</div>
+			</div>
+
+
+			<!-- Шестой блок -->
+			<div class="block">
+				<div class="block_left">
+					<div class="slider">
+						<div onclick="row_left6()" class="left">								<img src="images/указатель влево.png" alt="">
+							</div>
+						<div class="slider_img">
+						<a href='#'>
+						<img id="image6" src="images/карточка-пудра.png"">
+						</a>
+						</div>
+						<div onclick="row_right6()" class="right">
+							<img src="images/указатель вправо.png" alt="" >
+						</div>
+					</div>
+					<div class="paragraph">
+						Шуба из песца 90 см, трансформер в 70 см + рукава, натур. мех и замша. Рукав 7/8.
+					</div>
+					<div class="cost">
+						19990 руб.
+					</div>
+					<div class="button" onclick="buy()" >
+						добавить в корзину
+					</div>				
+				</div>
+				<div class="block_right">
+					<div class="colour_button">
+						<div class="image_button" onclick="pudra6()">
+							<img src="images/кнопка пудра.png" alt="" id="pudra6">
+						</div>
+						<div class="text_button">пудра</div>
+					</div>
+					<div class="colour_button">
+						<div class="image_button" onclick="mokko6()" >
+							<img src="images/конпка мокко.png" alt="" id="mokko6">
+						</div>
+						<div class="text_button">мокко</div>
+					</div>
+					<div class="colour_button">
+						<div class="image_button" onclick="orex6()" >
+							<img src="images/кнопка орех.png" alt="" id="orex6">
+						</div>
+						<div class="text_button" >орех</div>
+					</div>
+					<div class="colour_button">
+						<div class="image_button" onclick="sobol6()" >
+							<img src="images/кнопка соболь.png" alt="" id="sobol6">
+						</div>
+						<div class="text_button">соболь</div>
+					</div>
+					<div class="colour_button">
+						<div class="image_button" onclick="graphit6()" >
+							<img src="images/кнопка графит.png" alt="" id="graphit6">
+						</div>
+						<div class="text_button">графит</div>
+					</div>
+					<div class="colour_button">
+						<div class="image_button" onclick="black6()" >
+							<img src="images/Кнопка чёрный.png" alt="" id="black6">
+						</div>
+						<div class="text_button">чёрный</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="Jilete_is"><b>ЖИЛЕТ ИЗ ПЕСЦА</b></div>
+
+	<!-- блоки с моделями жилеток -->
+
+		<div class="container_Jilete">
+		<div class="block_container_Jilete">
+
+			<!-- седьмой блок -->
+			<div class="block">
+				<div class="block_left">
+					<div class="slider">
+						<div onclick="row_left7()" class="left">								<img src="images/указатель влево.png" alt="">
+							</div>
+						<div class="slider_img">
+						<a href='#'>
+						<img id="image7" src="images/карточка-пудра.png"">
+						</a>
+						</div>
+						<div onclick="row_right7()" class="right">
+							<img src="images/указатель вправо.png" alt="" >
+						</div>
+					</div>
+					<div class="paragraph">
+						Шуба из песца 90 см, трансформер в 70 см + рукава, натур. мех и замша. Рукав 7/8.
+					</div>
+					<div class="cost">
+						19990 руб.
+					</div>
+					<div class="button" onclick="buy()" >
+						добавить в корзину
+					</div>				
+				</div>
+				<div class="block_right">
+					<div class="colour_button">
+						<div class="image_button" onclick="pudra7()">
+							<img src="images/кнопка пудра.png" alt="" id="pudra7">
+						</div>
+						<div class="text_button">пудра</div>
+					</div>
+					<div class="colour_button">
+						<div class="image_button" onclick="mokko7()" >
+							<img src="images/конпка мокко.png" alt="" id="mokko7">
+						</div>
+						<div class="text_button">мокко</div>
+					</div>
+					<div class="colour_button">
+						<div class="image_button" onclick="orex7()" >
+							<img src="images/кнопка орех.png" alt="" id="orex7">
+						</div>
+						<div class="text_button" >орех</div>
+					</div>
+					<div class="colour_button">
+						<div class="image_button" onclick="sobol7()" >
+							<img src="images/кнопка соболь.png" alt="" id="sobol7">
+						</div>
+						<div class="text_button">соболь</div>
+					</div>
+					<div class="colour_button">
+						<div class="image_button" onclick="graphit7()" >
+							<img src="images/кнопка графит.png" alt="" id="graphit7">
+						</div>
+						<div class="text_button">графит</div>
+					</div>
+					<div class="colour_button">
+						<div class="image_button" onclick="black7()" >
+							<img src="images/Кнопка чёрный.png" alt="" id="black7">
+						</div>
+						<div class="text_button">чёрный</div>
+					</div>
+				</div>
+			</div>
+			
+			<!-- восьмой блок -->
+			<div class="block">
+				<div class="block_left">
+					<div class="slider">
+						<div onclick="row_left8()" class="left">								<img src="images/указатель влево.png" alt="">
+							</div>
+						<div class="slider_img">
+						<a href='#'>
+						<img id="image8" src="images/карточка-пудра.png"">
+						</a>
+						</div>
+						<div onclick="row_right8()" class="right">
+							<img src="images/указатель вправо.png" alt="" >
+						</div>
+					</div>
+					<div class="paragraph">
+						Шуба из песца 90 см, трансформер в 70 см + рукава, натур. мех и замша. Рукав 7/8.
+					</div>
+					<div class="cost">
+						19990 руб.
+					</div>
+					<div class="button" onclick="buy()" >
+						добавить в корзину
+					</div>				
+				</div>
+				<div class="block_right">
+					<div class="colour_button">
+						<div class="image_button" onclick="pudra8()">
+							<img src="images/кнопка пудра.png" alt="" id="pudra8">
+						</div>
+						<div class="text_button">пудра</div>
+					</div>
+					<div class="colour_button">
+						<div class="image_button" onclick="mokko8()" >
+							<img src="images/конпка мокко.png" alt="" id="mokko8">
+						</div>
+						<div class="text_button">мокко</div>
+					</div>
+					<div class="colour_button">
+						<div class="image_button" onclick="orex8()" >
+							<img src="images/кнопка орех.png" alt="" id="orex7">
+						</div>
+						<div class="text_button" >орех</div>
+					</div>
+					<div class="colour_button">
+						<div class="image_button" onclick="sobol8()" >
+							<img src="images/кнопка соболь.png" alt="" id="sobol8">
+						</div>
+						<div class="text_button">соболь</div>
+					</div>
+					<div class="colour_button">
+						<div class="image_button" onclick="graphit8()" >
+							<img src="images/кнопка графит.png" alt="" id="graphit8">
+						</div>
+						<div class="text_button">графит</div>
+					</div>
+					<div class="colour_button">
+						<div class="image_button" onclick="black8()" >
+							<img src="images/Кнопка чёрный.png" alt="" id="black8">
+						</div>
+						<div class="text_button">чёрный</div>
+					</div>
+				</div>
+			</div>
+	</div>
+	</div>
+	<div class="seriy">
+		<img src="img/Жилет серый.png">
+	</div>
+	
+
+	<div class="devyat_prichin">
+		
+	</div>
+	
+
+
+	</main>
+	<footer>
+		
+	</footer>
+
+	<script src="js/js.js"></script>
+</body>
+</html>
