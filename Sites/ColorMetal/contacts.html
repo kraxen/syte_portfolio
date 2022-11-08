@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Контакты</title>
+	<link rel="stylesheet" href="css/bootstrap-grid.css">
+	<link rel="stylesheet" href="css/bootstrap-grid.css.map">
+	<link rel="stylesheet" href="css/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="css/bootstrap-grid.min.css.map">
+	<link rel="stylesheet" href="css/bootstrap-reboot.css">
+	<link rel="stylesheet" href="css/bootstrap-reboot.css.map">
+	<link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+	<link rel="stylesheet" href="css/bootstrap-reboot.min.css.map">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/bootstrap.css.map">
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+	<header> 	<!-- Шапка -->
+		<div class="conteiner">
+			<div class="logo">		<!-- Лого -->
+					<img src="img/icons/logo.png" alt="">
+			</div>	
+			<!-- Меню -->
+			<div class="topnav" id="MyTopNav">
+				<a id="menu" href="#" class="nav-icon" onclick="show_menu('block')"><img src="img/icons/menuButton.png" alt=""></a>
+				<a href="index.html">Главная</a>
+				<a href="products.html">Продукция</a>
+				<a href="license.html">Лицензия</a>
+				<a href="gosts.html">Госты</a>
+				<a href="zacup.html">Закупки</a>
+				<a href="contacts.html">Контакты</a>
+			</div>
+		</div>
+		<div id="adaptive_menu">
+			<a href="index.html">Главная</a>
+			<a href="products.html">Продукция</a>
+			<a href="license.html">Лицензия</a>
+			<a href="gosts.html">Госты</a>
+			<a href="zacup.html">Закупки</a>
+			<a href="contacts.html">Контакты</a>
+			<div class="close-menu" onclick="show_menu('none')"><img src="img/icons/close.png" alt=""></div>
+		</div>
+	</header>
+	<main>
+		<div class="license-content"> <!-- Контент -->
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="contact-paragrapf col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12" align="left">
+						<p><span>Адрес:</span> г. Москва, ул. Проезд Огородный,
+						д.4, стр.1, 5 этаж, ком.21</p>
+						<p><span>Телефон:</span> +7 (495) 199-23-56</p>
+						<a href="Documents/Rekvizity.docx" download>Скачать реквизиты</a>
+						<a href="#" onclick="show('block')">Оставить заявку</a>
+					</div>
+					<div class="map col-xl-5 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+						<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A7a389234b043940d970f125bd66a8d76a56127c99ce348115c7a07e16f7defa2&amp;width=320&amp;height=320&amp;lang=ru_RU&amp;scroll=true"></script>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Затемнение формы -->
+		<div class="dark-form" Id="dark_form"">
+			<!-- Форма -->
+			<div class="form">
+				<form action="mail.php">
+					<div class="close" onclick="show('none')"><img src="img/icons/close.png" alt=""></div>
+					<label class="form-control-lg" for="">Ваше имя</label>
+					<input class="form-control-lg" type="text">
+					<label class="form-control-lg" for="">Ваш телефон</label>
+					<input class="form-control-lg" type="text" id="dop_phone" placeholder="+7(___) ___-____">
+					<button class="btn btn-form">Отправить</button>
+				</form>
+			</div>
+		</div>
+
+	</main>
+	<footer>	<!-- Футер -->
+		<p>ООО «ПО ОЦМ»© 2018. Все права защищены | Пользовательское соглашение</p>
+	</footer>
+
+	<!-- Бутстрап -->
+	<script src="js/bootstrap.bundle.js"></script>
+	<script src="js/bootstrap.bundle.js.map"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/bootstrap.js.map"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/bootstrap.min.js.map"></script>
+	<!-- JQ -->
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/jquery.maskedinput.min.js"></script>
+	<!-- Наш скрипт -->
+	<script src="js/js.js"></script>
+</body>
+</html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Главная</title>
+	<!-- Бутстрап -->
+	<link rel="stylesheet" href="css/bootstrap-grid.css">
+	<link rel="stylesheet" href="css/bootstrap-grid.css.map">
+	<link rel="stylesheet" href="css/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="css/bootstrap-grid.min.css.map">
+	<link rel="stylesheet" href="css/bootstrap-reboot.css">
+	<link rel="stylesheet" href="css/bootstrap-reboot.css.map">
+	<link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+	<link rel="stylesheet" href="css/bootstrap-reboot.min.css.map">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/bootstrap.css.map">
+	<!-- Наши стили -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- Иконка -->
+	<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+
+</head>
+<body>
+	<header> 	<!-- Шапка -->
+		<div class="conteiner">
+			<div class="logo">		<!-- Лого -->
+					<img src="img/icons/logo.png" alt="">
+			</div>		
+			<!-- Меню -->
+			<div class="topnav" id="MyTopNav">
+				<a id="menu" href="#" class="nav-icon" onclick="show_menu('block')"><img src="img/icons/menuButton.png" alt=""></a>
+				<a href="index.html">Главная</a>
+				<a href="products.html">Продукция</a>
+				<a href="license.html">Лицензия</a>
+				<a href="gosts.html">Госты</a>
+				<a href="zacup.html">Закупки</a>
+				<a href="contacts.html">Контакты</a>
+			</div>
+		</div>
+		<div id="adaptive_menu">
+			<a href="index.html">Главная</a>
+			<a href="products.html">Продукция</a>
+			<a href="license.html">Лицензия</a>
+			<a href="gosts.html">Госты</a>
+			<a href="zacup.html">Закупки</a>
+			<a href="contacts.html">Контакты</a>
+			<div class="close-menu" onclick="show_menu('none')"><img src="img/icons/close.png" alt=""></div>
+		</div>
+	</header>
+	<main>
+		<div class="container content main-content justify-content-center"> <!-- Контент -->
+			<!-- Заголовок -->
+			<div class="row">
+				<h1 class="col-10">
+					«ПО ОЦМ» — НАДЁЖНЫЙ ПОСТАВЩИК
+					МАТЕРИАЛОВ ДЛЯ МЕТАЛЛУРГИЧЕСКИХ
+					<br>И МАШИНОСТРОИТЕЛЬНЫХ ПРЕДПРИЯТИЙ
+				</h1>
+			</div>
+			<!-- Иконки -->
+			<div class="icons">
+				<div class="icons-block">
+					<img src="img/icons/1.png" alt="">
+					<p>Более 5 лет на рынке</p>
+				</div>
+				<div class="icons-block">
+					<img src="img/icons/2.png" alt="">
+					<p>Большой ассортимент</p>
+				</div>
+				<div class="icons-block">
+					<img src="img/icons/3.png" alt="">
+					<p>Лицензии на продукцию</p>
+				</div>
+				<div class="icons-block">
+					<img src="img/icons/4.png" alt="">
+					<p>Доставка по России</p>
+				</div>
+			</div>
+			<!-- Кнопки -->
+			<div class="row btns">
+				<a class="btn btn-lg btn-light col-xl-4 .col-lg-5 btn-look" href="products.html">Посмотреть продукцию</a>
+				<button class="btn btn-lg col-xl-4 .col-lg-5 btn-zayavk" onclick="show('block')">Оставить заявку</button>
+			</div>
+		</div>
+		<!-- Затемнение формы -->
+		<div class="dark-form" Id="dark_form"">
+			<!-- Форма -->
+			<div class="form">
+				<form action="mail.php" method="POST" Id="form">
+					<div class="close" onclick="show('none')"><img src="img/icons/close.png" alt=""></div>
+					<label class="form-control-lg" for="">Ваше имя</label>
+					<input class="form-control-lg" type="text" name="name">
+					<label class="form-control-lg" for="">Ваш телефон</label>
+					<input class="form-control-lg" type="text" id="phone" placeholder="+7(___) ___-____" name="phone">
+					<button class="btn btn-form">Отправить</button>
+				</form>
+			</div>
+		</div>
+
+	</main>
+	<!-- Футер -->
+	<footer>	
+		<p>ООО «ПО ОЦМ»© 2018. Все права защищены | Пользовательское соглашение</p>
+	</footer>
+	<!-- Бутстрап -->
+	<script src="js/bootstrap.bundle.js"></script>
+	<script src="js/bootstrap.bundle.js.map"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/bootstrap.js.map"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/bootstrap.min.js.map"></script>
+	<!-- JQ -->
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/jquery.maskedinput.min.js"></script>
+	<!-- Наш скрипт -->
+	<script src="js/js.js"></script>
+</body>
+</html>

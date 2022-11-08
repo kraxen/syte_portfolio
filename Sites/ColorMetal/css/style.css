@@ -1,0 +1,306 @@
+@font-face{
+	font-family: 'Fira Sans';
+	src:url('../Fonts/FIRASANS-BLACK.TTF') format('ttf');
+	src:url('../Fonts/FIRASANS-BOLD.TTF') format('ttf');
+	src:url('../Fonts/FIRASANS-BOLDITALIC.TTF') format('ttf');
+	src:url('../Fonts/FIRASANS-BOOK.TTF') format('ttf');
+	src:url('../Fonts/FIRASANS-BOOKITALIC.TTF') format('ttf');
+	src:url('../Fonts/FIRASANS-EXTRABOLD.TTF') format('ttf');
+	src:url('../Fonts/FIRASANS-EXTRABOLDITALIC.TTF') format('ttf');
+	src:url('../Fonts/FIRASANS-EXTRALIGHT.TTF') format('ttf');
+	src:url('../Fonts/FIRASANS-EXTRALIGHTITALIC.TTF') format('ttf');
+	src:url('../Fonts/FIRASANS-EXTRABOLD.TTF') format('ttf');
+	src:url('../Fonts/FIRASANS-EXTRABOLDITALIC.TTF') format('ttf');
+	src:url('../Fonts/FIRASANS-EXTRALIGHT.TTF') format('ttf');
+	src:url('../Fonts/FIRASANS-EXTRALIGHTITALIC.TTF') format('ttf');
+	src:url('../Fonts/FIRASANS-HEAVY.TTF') format('ttf');
+	src:url('../Fonts/FIRASANS-HEAVYITALIC.TTF') format('ttf');
+	src:url('../Fonts/FIRASANS-ITALIC.TTF') format('ttf');
+	src:url('../Fonts/FIRASANS-LIGHTITALIC.TTF') format('ttf');
+	src:url('../Fonts/FIRASANS-LIGHT_0.TTF') format('ttf');
+	src:url('../Fonts/FIRASANS-MEDIUM.TTF') format('ttf');
+	src:url('../Fonts/FIRASANS-MEDIUMITALIC.TTF') format('ttf');
+	src:url('../Fonts/FIRASANS-REGULAR.TTF') format('ttf');
+	src:url('../Fonts/FIRASANS-SEMIBOLD.TTF') format('ttf');
+	src:url('../Fonts/FIRASANS-SEMIBOLDITALIC.TTF') format('ttf');
+	src:url('../Fonts/FIRASANS-THINITALIC.TTF') format('ttf');
+	src:url('../Fonts/FIRASANS-ULTRALIGHT.TTF') format('ttf');
+	src:url('../Fonts/FIRASANS-ULTRALIGHTITALIC.TTF') format('ttf');
+}
+
+body{
+	color: #fff;
+	background: url(../img/bgImage.jpg)no-repeat center center; 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+header{
+	height:auto;
+}
+.left-logo, .text-logo, .right-logo{
+	display: inline-block;
+}
+.left-logo, .right-logo{
+	font-size: 36px;
+	font-family: 'Fira Sans Thin';
+}
+.text-logo h2{
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 12px;
+	font-family: 'Fira Sans Thin';
+}
+.logo{
+	padding: 30px 0px;
+	text-align: center;
+}
+.text-logo h3{
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 12px;
+	font-family: 'Fira Sans SemiBold';
+}
+/*Меню*/
+.topnav{
+	padding: 20px 0px;
+	border-bottom: 1px solid #dfdfdf;
+	text-align: center;
+	white-space: nowrap;
+	width: 650px;
+	margin: 0 auto;
+}
+.topnav a{
+	font-size: 14px;
+	padding: 14px 10px;
+	text-transform: uppercase;
+	color: #fff;
+	font-family: 'Fira Sans Book';
+	text-shadow: 3px -3px 2px black;
+	letter-spacing: 2px;
+}
+.nav-icon{
+	display: none;
+}
+/*Адаптивное меню*/
+#adaptive_menu{
+		display: none;
+		position: fixed;
+		width: 100%;
+		height: 550px;
+		text-align: center;
+		background: #e0e2e2;
+		top: 0;
+		padding-top: 35px;
+		z-index: 2;
+		border-bottom-left-radius: 15px;
+		border-bottom-right-radius: 15px;
+		font-family: 'Fira Sans Regular';
+	}
+	#adaptive_menu a{
+		display: block;
+		color: #444444;
+		font-size: 24px;
+		margin-bottom: 30px;
+	}
+	#adaptive_menu .close-menu{
+		margin-top: 70px;
+		cursor: pointer;
+		font-weight: 900;
+	}
+/*Контент*/
+.content{
+	padding: 0 100px;
+	height: 650px;
+}
+.main-content{
+	margin: 100px auto;
+
+}
+.content h1{
+	padding-bottom: 50px;
+	font-size: 36px;
+	font-family: 'Fira Sans SemiBold';
+	text-shadow: 3px -3px 2px black;
+	letter-spacing: 2px;
+}
+/*Иконки*/
+.icons{
+	padding-bottom: 80px;
+	width: 80%;
+	display: flex;
+	flex-wrap:wrap;
+}
+.icons-block{
+	display: flex;
+	width: 25%;
+}
+.icons-block img{
+	height: 40px;
+	margin-right: 10px;
+	vertical-align: top;
+}
+.icons-block p{
+	width: 70%;
+}
+/*Кнопки*/
+.btn-look{
+	margin-right: 50px;
+	padding-top: 20px;
+}
+.btn-zayavk{
+	background-color: transparent;
+	border: 1px solid #fff;
+	color: #fff;
+}
+.btn{
+	text-transform: uppercase;
+	font-family: 'Fira Sans SemiBold';
+	height: 70px;
+	width: 300px;
+}
+/*Форма заявки*/
+.dark-form{
+	position:fixed;
+	display: none;
+	margin-top: -250%;
+    width:100%;
+    height:500%;
+    justify-content:center;
+    align-items:center;
+    background:rgba(0,0,0,0.7);
+    z-index:1;
+}
+.form{
+	position: fixed;
+	display: inline-block;
+	background: #e0e2e2;
+	color: #444444;
+	height: 400px;
+	width: 370px;
+	padding: 20px 40px;
+	border-radius: 15px;
+	top:195px;
+	left: 50%;
+	margin-left: -185px;
+	z-index: 2;
+}
+.form label,input,button{
+	display: block;
+	width: 100%;
+}
+.form label{
+	margin-bottom: 15px;
+}
+.form input{
+	margin-bottom: 25px;
+	border-radius: 15px;
+	border: 0px;
+	border-top: 2px solid #a6a6a6;
+	outline:none;
+}
+.btn-form{
+	background: #444444;
+	color: #fff;
+	height: 65px;
+}
+.form .close{
+	margin-right: -15px;
+}
+/*Продукция*/
+.product-content, .license-content{
+	width: 100%;
+	height: auto;
+	background: #fff;
+	text-align: center;
+	color: #000;
+	padding: 50px;
+	font-family: 'Fira Sans Medium';
+	font-size: 16px;
+	margin-top: -1px;
+}
+.product-content p,.license-content p{
+	margin: 25px 0;
+}
+.product-content p{
+	font-family: 'Fira Sans Medium';
+	color: #444;
+}
+.license-content a{
+	font-family: 'Fira Sans Regular';
+	font-size: 14px;
+	color: #444444;
+	text-decoration: underline;
+	display: block;
+	margin-bottom: 20px;
+}
+/*Лицензия*/
+.license-content{
+	height: 850px;
+	color: #444444;
+}
+/*Закупки*/
+.zacup{
+	font-family: 'Fira Sans Regular';
+	font-style: 14px;
+}
+.contact-paragrapf p{
+	font-family: 'Fira Sans Regular';
+}
+span{
+	font-family: 'Fira Sans SemiBold';
+}
+/*Футер*/
+footer{
+	color: #dfdfdf;
+	text-align: center;
+	vertical-align: bottom;
+	font-size: 8px;
+	font-family: 'Fira Sans Light';
+}
+
+
+
+
+@media (max-width: 991px) { 
+	.content{padding: 0;}
+	.icons-block{width: 50%;padding-bottom: 20px;} 
+	
+}
+@media (max-width: 767px) { 
+	.content{padding: 0;}
+	.btn-look{margin-bottom: 30px; margin-right: 0px;}
+	.content h1{font-size: 18px;}
+	body{height:auto;}
+	.topnav{width: 550px;}
+	.topnav a{padding: 12px 8px; font-size: 12px;}
+	.main-content{margin: 50px auto;}
+	footer{font-size: 12px;}
+	.icons-block {display: inline-block;text-align: center;}
+	.icons-block img{display: inline-block;}
+	.icons-block p{width: 100%;padding-top: 10px;}
+	.license-content{height:auto;}
+}
+@media (max-width: 576px) { 
+	.content{padding: 0px; height:auto;}
+	.content h1{margin-left: 20px;}
+	.topnav a:not(:first-child){display: none;}
+	.nav-icon{display: block;}
+	.topnav{
+		margin-top: -100px;
+		margin-bottom: 110px;
+		width: auto;
+		text-align: left;
+		border: 0px;
+	}
+	.main-content h1,.main-content .icons{
+		margin-left: 50px;
+	}
+	.logo{text-align: right;}
+	.btn{margin: 10px auto;}
+	main{margin-top: -10px;}
+	.map,.contact-paragrapf{margin-left: -100px;}
+
+}
